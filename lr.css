@@ -138,7 +138,7 @@ a:hover
         background: lavenderblush;
         top:60px;
         left: -100%;
-        transition: .7s cubic-bezier(100, 1, 1, 1);
+        transition: .7s ease;
         text-align: center;
         margin-top: 20px;
     }
