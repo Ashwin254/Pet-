@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lanfg="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       <title>PetStore</title>
+       <link rel="stylesheet" href="lr.css">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+      <div class="nav">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul>
+                <li><a  href="#">Home</a></li>
+                <li><a class="active" href="#">Account</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div class="centre">
+     <div class="box">
+    
+        <h1>Register Here</h1>
+
+        <form name="myform2" onsubmit="return vfun1()">
+
+            <p>Username</p>
+            <input type="text" name="uname1" placeholder="Enter Username" required>
+            <div id="errorBox1"></div>
+            <p>Email</p>
+            <input type="Email" name="email1" placeholder="Enter email id" required>
+            <div id="errorBox2"></div>
+            <p>Password</p>
+            <input type="password" name="upswd1" placeholder="Enter Password" required>
+            <div id="errorBox3"></div>
+            <div id="errorBox5"></div>
+            <p>Mobile Number</p>
+            <input type="tel" name="mobile" placeholder="Enter Mobile Number" required>
+            <div id="errorBox6"></div>
+            <input type="submit" name="" value="Register">
+
+            <br><br>
+            <a href="login.html">Existing user, login !?</a>
+        </form>  
+    </div>
+        </div>
+
+</body>
+</head>
+</html>
